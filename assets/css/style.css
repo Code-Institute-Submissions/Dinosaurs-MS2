@@ -1,0 +1,20 @@
+/* css for menu */
+
+@import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
+
+body {
+    font-family: 'Prompt', sans-serif;
+}
+
+.bg-black {
+    background-color: #063324;
+}
+
+.nav-link.active, .nav-link:hover{
+    color: #ffffff !important;
+}
+
+.navbar-brand {
+    height: 110px;
+    width: 220px;
+}
