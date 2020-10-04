@@ -2,6 +2,12 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
 
+body {
+    font-family: 'Prompt', sans-serif;
+    background: url("../images/background.jpg") no-repeat;
+    background-size: 125em;
+    
+}
 
 .bg-black {
     background-color: #063324;
@@ -15,29 +21,55 @@
     height: 65px;
     width: 220px;
     font-size: 220%;
-    
+    }
 
+
+.container-fluid {
+    background-color: #063324;
+    color: #ffff;
+    text-align: center;
+    margin-top: 80px;
+    height: 175px;
+}
+
+.container-fluid h2 {
+    padding-top: 20px;
+}
+   
+.timer-header {
+    font-size: 50px;
+}
+
+.timer {
+    font-size: 50px;
 }
 
 
-body {
-    font-family: 'Prompt', sans-serif;
-    background: url("../images/background.jpg") no-repeat;
-    background-size: cover;
-    background-size: 100%;
-    
-   
+@media screen and (max-width: 992px) {
+    .container-fluid {
+        height: 210px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container-fluid {
+        height: 240px;
     }
 
-.instructions {
-    padding-top: 6%;
-    margin-left: 33%;
-    margin-right: 33%;
-    background-color: #063324;
-    color: #ffffff;
-    text-align: center;
-    padding-bottom: 0.5%;
-    
-    
+    .navbar-brand {
+        font-size: 160%;
+        } 
 
+        .timer-header {
+            font-size: 30px;
+        }
+        
+        .timer {
+            font-size: 30px;
+        }
+
+        .container-fluid h2{
+        font-size: 20px;
+        padding-top: 10px;
+        }
 }
