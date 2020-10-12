@@ -5,7 +5,7 @@
 body {
     font-family: 'Prompt', sans-serif;
     background: url("../images/background.jpg") no-repeat;
-    background-size: 125em;
+    background-size: 130em;
     
 }
 
@@ -18,7 +18,7 @@ body {
 }
 
 .navbar-brand {
-    height: 65px;
+    height: 50px;
     width: 220px;
     font-size: 220%;
     }
@@ -28,43 +28,67 @@ body {
     background-color: #063324;
     color: #ffff;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 65px;
     height: 175px;
 }
 
 .container-fluid h2 {
     padding-top: 20px;
 }
+
+.container-fluid h5 {
+    padding-top: 40px;
+}
    
-.timer-header {
-    font-size: 50px;
+.moves-header {
+    font-size: 30px;
 }
 
-.timer {
-    font-size: 50px;
+.moves {
+    font-size: 30px;
+
 }
+
 
 
 @media screen and (max-width: 992px) {
-    .container-fluid {
-        height: 210px;
+    
+    body {
+        
+    background-size: 130em;
+        
     }
+    
+    
+    
+    .container-fluid {
+        height: 210px
+    }
+
+    .container-fluid h5 {
+        padding-top: 30px;
+    }
+
+    
 }
 
+
 @media screen and (max-width: 600px) {
+    
+    
     .container-fluid {
-        height: 240px;
+        height: 250px;
     }
 
     .navbar-brand {
         font-size: 160%;
         } 
 
-        .timer-header {
+        .moves-header {
             font-size: 30px;
         }
         
-        .timer {
+        .moves {
             font-size: 30px;
         }
 
@@ -72,4 +96,10 @@ body {
         font-size: 20px;
         padding-top: 10px;
         }
+
+        .container-fluid h5 {
+            padding-top: 10px;
+        }
+
+    
 }
