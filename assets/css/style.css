@@ -51,6 +51,56 @@ body {
 
 
 
+.restart-btn {
+    background: none;
+    border: none;
+    color: #000000;
+    font-size: 1.6em;
+    font-weight: 900;
+}
+
+.game-board {
+    max-width: 50%;
+    margin-left: 50px;
+    border-radius: 0.3em;
+    box-shadow: 0 5px 5px #063324;
+}
+
+.game-grid-row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.game-card {
+    width:12.5em;
+    height: 9em;
+    background: url("../images/cardfront.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 0.3em;
+    margin: 0.8em;
+    box-shadow: 2px 0 10px #212121;
+    cursor: pointer;
+}
+
+.game-card-img {
+    visibility: hidden;
+    object-fit: cover;
+    width:12.5em;
+    height: 9em;
+}
+
+.restart-button-div {
+    margin-left: 50px;
+    text-align: center;
+}
+
+.restart-button { 
+	padding: 0.7em 1.4em;
+}
+
+
+
 
 
 @media screen and (max-width: 992px) {
