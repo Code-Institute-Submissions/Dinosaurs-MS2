@@ -51,57 +51,6 @@ body {
 
 
 
-.restart-btn {
-    background: none;
-    border: none;
-    color: #000000;
-    font-size: 1.6em;
-    font-weight: 900;
-}
-
-.game-board {
-    max-width: 50%;
-    margin-left: 50px;
-    border-radius: 0.3em;
-    box-shadow: 0 5px 5px #063324;
-}
-
-.game-grid-row {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.game-card {
-    width:12.5em;
-    height: 9em;
-    background: url("../images/cardfront.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    border-radius: 0.3em;
-    margin: 0.8em;
-    box-shadow: 2px 0 10px #212121;
-    cursor: pointer;
-}
-
-.game-card-img {
-    visibility: hidden;
-    object-fit: cover;
-    width:12.5em;
-    height: 9em;
-}
-
-.restart-button-div {
-    margin-left: 50px;
-    text-align: center;
-}
-
-.restart-button { 
-	padding: 0.7em 1.4em;
-}
-
-
-
-
 
 @media screen and (max-width: 992px) {
     
@@ -114,36 +63,37 @@ body {
     
     
     .container-fluid {
-        height: 210px
+        
+        height: 210px;
+      
+      
     }
 
     .container-fluid h5 {
         padding-top: 30px;
     }
 
+  
     
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 695px) {
     
     
     .container-fluid {
         height: 250px;
+        width: 695px;
+        text-align: left;
+      
+        
     }
 
     .navbar-brand {
         font-size: 160%;
         } 
 
-        .moves-header {
-            font-size: 30px;
-        }
         
-        .moves {
-            font-size: 30px;
-        }
-
         .container-fluid h2{
         font-size: 20px;
         padding-top: 10px;
@@ -153,5 +103,4 @@ body {
             padding-top: 10px;
         }
 
-    
-}
+    }
