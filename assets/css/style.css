@@ -50,7 +50,21 @@ body {
 }
 
 
+.container-cards {
+    width: 900px;
+    margin: 0 auto;
+    float: left;
+}
 
+.card {
+    margin: 10px;
+    height: 130px;
+    width: 175px;
+    background: url("../images/cardfront.jpeg")no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+ 
 
 @media screen and (max-width: 992px) {
     
@@ -59,22 +73,29 @@ body {
     background-size: 130em;
         
     }
-    
-    
-    
     .container-fluid {
         
         height: 210px;
-      
-      
-    }
+      }
 
     .container-fluid h5 {
         padding-top: 30px;
     }
 
-  
+    .container-cards {
+        width: 650px;
+       
+    }
     
+    .card {
+        
+        height: 100px;
+        width: 135px;
+        background-size: cover;
+        
+    }
+
+   
 }
 
 
@@ -86,8 +107,7 @@ body {
         width: 695px;
         text-align: left;
       
-        
-    }
+        }
 
     .navbar-brand {
         font-size: 160%;
@@ -103,4 +123,19 @@ body {
             padding-top: 10px;
         }
 
+        .container-cards {
+            width: 500px;
+            
+        }
+        
+        .card {
+            margin: 3px;
+            height: 85px;
+            width: 112px;
+            background-size: cover;
+        }
+    
+       
     }
+
+    
