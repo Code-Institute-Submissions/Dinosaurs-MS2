@@ -118,8 +118,8 @@ body {
     }
 
     .memory-game {
-        width: 700px;
-        height: 600px;
+        width: 600px;
+        height: 500px;
         margin: auto;
     }
    
@@ -152,8 +152,8 @@ body {
 
         .memory-game {
             margin: auto;
-            width: 580px;
-            height: 540px;
+            width: 480px;
+            height: 340px;
         }
        
     }
