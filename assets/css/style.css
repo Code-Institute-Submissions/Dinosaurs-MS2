@@ -23,42 +23,17 @@ body {
     font-size: 220%;
     }
 
-
-.container-fluid {
-    background-color: #063324;
-    color: #ffff;
-    text-align: center;
-    margin-top: 65px;
-    height: 175px;
-}
-
-.container-fluid h2 {
-    padding-top: 20px;
-}
-
-.container-fluid h5 {
-    padding-top: 40px;
-}
-   
-.moves-header {
-    font-size: 30px;
-}
-
-.move-counter {
-    font-size: 30px;
-
-}
-
-
 .memory-game
 
 {
-    width: 800px;
-    height: 640px;
-    margin-left: 65px;
+    width: 950px;
+    height: 620px;
+    margin-top: 70px;
+    margin-left: 40px;
     display: flex;
     flex-wrap: wrap;
     perspective: 1000px;
+    float: left;
 
   }
 
@@ -94,7 +69,7 @@ body {
     position: absolute;
     border-radius: 5px;
     backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
+
   }
 
   .front-face {
@@ -108,54 +83,30 @@ body {
     background-size: 130em;
         
     }
-    .container-fluid {
-        
-        height: 210px;
-      }
 
-    .container-fluid h5 {
-        padding-top: 30px;
+    .memory-game  {
+        width: 100vw;
+        height: 70vw;
+        margin-left: 10px;
     }
 
-    .memory-game {
-        width: 600px;
-        height: 500px;
-        margin: auto;
-    }
-   
 }
-
 
 @media screen and (max-width: 695px) {
     
     
-    .container-fluid {
-        height: 250px;
-        width: 695px;
-        text-align: left;
-      
-        }
 
     .navbar-brand {
         font-size: 160%;
         } 
 
-        
-        .container-fluid h2{
-        font-size: 20px;
-        padding-top: 10px;
+        .memory-game  {
+            width: 100vw;
+            height: 70vw;
+            margin-left: 10px;
         }
-
-        .container-fluid h5 {
-            padding-top: 10px;
-        }
-
-        .memory-game {
-            margin: auto;
-            width: 480px;
-            height: 340px;
-        }
-       
+      
     }
+
 
     
