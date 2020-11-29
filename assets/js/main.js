@@ -3,6 +3,9 @@ let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
 
+let moves = 0;
+let counter = document.querySelector(".moves-counter");
+
 
 function flipCard() {
   if (lockBoard) return;
@@ -19,8 +22,9 @@ function flipCard() {
  
     secondCard = this;
     
- 
+    
     checkForMatch();
+    moveCounter();
   }
 
  
@@ -58,7 +62,10 @@ function flipCard() {
     });
   })();
 
-  
+  function moveCounter(){
+    moves++;
+    counter.innerHTML = moves;
+  }
 
 
 cards.forEach(card => card.addEventListener('click', flipCard));
