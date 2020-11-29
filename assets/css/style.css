@@ -67,7 +67,7 @@ body {
     padding: 5px;
     position: absolute;
     border-radius: 5px;
-    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 
   }
 
