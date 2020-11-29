@@ -23,16 +23,22 @@ body {
     font-size: 220%;
     }
 
-.memory-game
+.flex {
+    display: flex;
+    flex-direction: row;
+}
 
-{
-    width: 950px;
+
+.memory-game {
+    width: 65%;
     height: 620px;
     margin-top: 70px;
-    margin-left: 40px;
+    margin-left: 10px;
     display: flex;
     flex-wrap: wrap;
     perspective: 1000px;
+    border: solid 1px #063324;
+    overflow: hidden;
 
   }
 
@@ -75,6 +81,15 @@ body {
     transform: rotateY(180deg);
   }
 
+  .ins-moves {
+    border: solid 1px #063324;
+    width: 35%;
+    height: 620px;
+    margin-top: 70px;
+    
+    
+  }
+
 @media screen and (max-width: 992px) {
     
     body {
@@ -85,10 +100,22 @@ body {
 
     .memory-game  {
         width: 100vw;
-        height: 65vw;
-        margin-left: 10px;
+        height: 75vw;
+        margin-left: 5px;
+        margin-top: 5px;
     }
 
+    .flex {
+        flex-direction: column;
+    }
+
+    .ins-moves {
+        border: solid 1px #063324;
+        width: 100vw;
+        height: 200px;
+    
+        
+      }
 }
 
 @media screen and (max-width: 695px) {
@@ -102,9 +129,20 @@ body {
         .memory-game  {
             width: 100vw;
             height: 85vw;
-            margin-left: 10px;
+            margin-left: 5px;
+            margin-top: 5px;
         }
-      
+        .flex {
+            flex-direction: column;
+        }
+
+        .ins-moves {
+            border: solid 1px #063324;
+            width: 100vw;
+            height: 100px;
+        
+            
+          }
     }
 
 
