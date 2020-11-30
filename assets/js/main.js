@@ -6,6 +6,7 @@ let firstCard, secondCard;
 let moves = 0;
 let counter = document.querySelector(".moves-counter");
 
+var audio = new Audio("assets/sounds/roar.mp3");
 
 function flipCard() {
   if (lockBoard) return;
@@ -25,6 +26,8 @@ function flipCard() {
     
     checkForMatch();
     moveCounter();
+    
+    
   }
 
  
@@ -32,12 +35,13 @@ function flipCard() {
       
     let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
     isMatch ? disableCards() : unflipCards();
-
+    
   }
  
   function disableCards() {
     firstCard.removeEventListener('click', flipCard);
     secondCard.removeEventListener('click', flipCard);
+    audio.play();
     resetBoard();
   }
  
@@ -68,4 +72,11 @@ function flipCard() {
   }
 
 
+  function restart (){
+
+    location.reload();
+    return false;
+  }
+
+  
 cards.forEach(card => card.addEventListener('click', flipCard));
