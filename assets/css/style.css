@@ -134,6 +134,7 @@ body {
     width: 50%;
     float: left;
     height: 100vh;
+    border: solid 0.5px #063324;
   }
   
   .col2 {
@@ -141,6 +142,7 @@ body {
     width: 50%;
     float: right;
     height: 100vh;
+    border: solid 0.5px #063324;
   }
 
   .hide {
@@ -158,9 +160,11 @@ body {
   
  .my-info-1 img{
 
-    width: 80%;
-    height: 65%; 
+    width: 90%;
+    height: 75%; 
     margin-top: 30px; 
+    margin-left:20px;
+    margin-right: 10px;
 
  }
  
@@ -252,9 +256,10 @@ body {
             
            .my-info-1 img{
           
-              width: 80%;
+              width: 90%;
               height: 65%; 
               margin-top: 10px; 
+              margin-left: 20px;
           
            }
 
