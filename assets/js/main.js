@@ -8,6 +8,7 @@ let counter = document.querySelector(".moves-counter");
 
 var audio = new Audio("assets/sounds/roar.mp3");
 
+
 function flipCard() {
   if (lockBoard) return;
   if (this === firstCard) return;
@@ -23,13 +24,11 @@ function flipCard() {
  
     secondCard = this;
     
-    
     checkForMatch();
     moveCounter();
     
     
   }
-
  
   function checkForMatch() {
       
@@ -78,5 +77,5 @@ function flipCard() {
     return false;
   }
 
-  
+
 cards.forEach(card => card.addEventListener('click', flipCard));
