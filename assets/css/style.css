@@ -28,7 +28,6 @@ body {
     flex-direction: row;
 }
 
-
 .memory-game {
     width: 65%;
     height: 620px;
@@ -173,6 +172,21 @@ body {
    color: white;
  }
 
+ #map {
+   margin-top: 100px;
+   margin-left: 50px;
+   height: 85%;
+   width: 90%;
+ }
+
+ .col1-maps {
+  display: block;
+  width: 100%;
+  float: left;
+  height: 100vh;
+  border: solid 0.5px #063324;
+}
+
 @media screen and (max-width: 992px) {
     
     body {
@@ -262,6 +276,12 @@ body {
               margin-left: 20px;
           
            }
+
+           .col1-maps {
+            
+            width: 95%;
+           
+          }
 
     }
 
