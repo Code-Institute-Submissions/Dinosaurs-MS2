@@ -189,13 +189,14 @@ body {
 }
 
 .contact-form {
-  margin-right: 300px;
-  margin-left: 350px;
-  margin-top: 200px;
+  margin-right: 200px;
+  margin-left: 300px;
+  margin-top: 150px;
   margin-bottom: 220px;
-  background-color: #063324;
-  height: 40vh;
-  width: 50vw;
+  background-color: rgb(6 51 36 / 0.5);
+  height: 65vh;
+  width: 60%;
+  padding: 50px;
 }
 
 .contact-form h5 {
@@ -268,8 +269,7 @@ body {
       .contact-form {
         margin-right: 100px;
         margin-left: 100px;
-        height: 50vh;
-        width: 70vw;
+        
         
       }
 
