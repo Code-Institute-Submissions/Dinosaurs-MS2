@@ -7,12 +7,12 @@ let moves = 0;
 let counter = document.querySelector(".moves-counter");
 
 var audio = new Audio("assets/sounds/roar.mp3");
-
+var audio2 = new Audio("assets/sounds/flip.mp3");
 
 function flipCard() {
   if (lockBoard) return;
   if (this === firstCard) return;
-  
+  audio2.play();
   this.classList.add('flip');
   
 
