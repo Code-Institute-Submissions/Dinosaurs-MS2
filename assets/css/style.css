@@ -4,8 +4,8 @@
 
 body {
     font-family: 'Prompt', sans-serif;
-    background: url("../images/background.jpg") no-repeat;
-    background-size: 130em;
+    background: url("../images/background.png") no-repeat;
+    background-size: 130%
     
 }
 
@@ -133,7 +133,7 @@ body {
     width: 50%;
     float: left;
     height: 100vh;
-    border: solid 0.5px #063324;
+
   }
   
   .col2 {
@@ -141,7 +141,7 @@ body {
     width: 50%;
     float: right;
     height: 100vh;
-    border: solid 0.5px #063324;
+
   }
 
   .hide {
@@ -184,15 +184,17 @@ body {
   width: 100%;
   float: left;
   height: 100vh;
-  border: solid 0.5px #063324;
+  margin-bottom: 50px;
+  margin-left: 100px;
 }
 
 .contact-form {
   margin-right: 300px;
-  margin-left: 300px;
+  margin-left: 350px;
   margin-top: 200px;
+  margin-bottom: 100px;
   background-color: #063324;
-  height: 50vh;
+  height: 40vh;
   width: 50vw;
 }
 
@@ -213,6 +215,16 @@ body {
     margin-top: 20px;
     align-content: right;
 }
+
+.site-footer {
+  
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 15vh;  
+  background-color:  #063324;
+  }
+
 
 @media screen and (max-width: 992px) {
     
@@ -315,6 +327,7 @@ body {
            .col1-maps {
             
             width: 95%;
+            margin-left: 15px;
            
           }
 
