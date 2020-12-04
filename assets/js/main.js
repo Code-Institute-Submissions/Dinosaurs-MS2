@@ -6,13 +6,13 @@ let firstCard, secondCard;
 let moves = 0;
 let counter = document.querySelector(".moves-counter");
 
-var audio = new Audio("assets/sounds/roar.mp3");
-var audio2 = new Audio("assets/sounds/flip.mp3");
+const roar = new Audio("assets/sounds/roar.mp3");
+const flip = new Audio("assets/sounds/flip.mp3");
 
 function flipCard() {
   if (lockBoard) return;
   if (this === firstCard) return;
-  audio2.play();
+  flip.play();
   this.classList.add('flip');
   
 
@@ -40,7 +40,7 @@ function flipCard() {
   function disableCards() {
     firstCard.removeEventListener('click', flipCard);
     secondCard.removeEventListener('click', flipCard);
-    audio.play();
+    roar.play();
     resetBoard();
   }
  

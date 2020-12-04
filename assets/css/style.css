@@ -5,7 +5,7 @@
 body {
     font-family: 'Prompt', sans-serif;
     background: url("../images/background.png") no-repeat;
-    background-size: 130%
+    background-size: 200%
     
 }
 
@@ -191,10 +191,10 @@ body {
 .contact-form {
   margin-right: 200px;
   margin-left: 300px;
-  margin-top: 150px;
+  margin-top: 75px;
   margin-bottom: 220px;
   background-color: rgb(6 51 36 / 0.5);
-  height: 65vh;
+  height: 80vh;
   width: 60%;
   padding: 50px;
 }
@@ -205,11 +205,8 @@ body {
   text-align: center;
 }
 
-.form-control input[type]{
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 20px;
-
+.contact-form label {
+  color: white;
 }
 
 .contact-form button {
@@ -269,7 +266,7 @@ body {
       .contact-form {
         margin-right: 100px;
         margin-left: 100px;
-        
+        width: 70%;
         
       }
 
@@ -332,10 +329,9 @@ body {
           }
 
           .contact-form {
-            margin-right: 50px;
-            margin-left: 50px;
-            height: 50vh;
-            width: 70vw;
+            margin-right: 25px;
+            margin-left: 25px;
+            width: 90%;
             
           }
 
