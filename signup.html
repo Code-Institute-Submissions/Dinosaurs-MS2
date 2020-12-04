@@ -20,6 +20,8 @@
         <title>Dinosaur Discoveries | Game</title>
         <!-- Link to Internal CSS -->
         <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+        <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+        <script type="text/javascript"> (function(){emailjs.init("user_rPfPoRcIbhQquB1q6No7x");})();</script>   
     </head>
 
     <body>
@@ -55,6 +57,16 @@
             </div>
         </nav>
 
+        <div class="contact-form">
+            <h5>Sign up below to receive the monthly newsletter on the latest events with Dinosaurs in the UK</h5>
+            <form onsubmit="return sendMail(this);">
+                <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                <input type="text" name="contactnumber" class="form-control" id="contactnumber" placeholder="Contact No" required></input>
+                <button type="submit" class="btn btn-secondary center-block" style="float:right;">Sign Up</button>
+            </form>
+        </div>
+
         <script
             src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
             integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -67,6 +79,7 @@
             src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous"></script>
+        <script src="assets/js/signup.js"></script>
 
         </body>
 

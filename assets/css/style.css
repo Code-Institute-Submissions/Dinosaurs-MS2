@@ -174,7 +174,7 @@ body {
 
  #map {
    margin-top: 100px;
-   margin-left: 50px;
+   margin-left: 25px;
    height: 85%;
    width: 90%;
  }
@@ -185,6 +185,33 @@ body {
   float: left;
   height: 100vh;
   border: solid 0.5px #063324;
+}
+
+.contact-form {
+  margin-right: 300px;
+  margin-left: 300px;
+  margin-top: 200px;
+  background-color: #063324;
+  height: 50vh;
+  width: 50vw;
+}
+
+.contact-form h5 {
+  margin-bottom: 50px;;
+  color: white;
+  text-align: center;
+}
+
+.form-control input[type]{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+
+}
+
+.contact-form button {
+    margin-top: 20px;
+    align-content: right;
 }
 
 @media screen and (max-width: 992px) {
@@ -223,6 +250,14 @@ body {
               
         font-size:15px;
         
+        
+      }
+
+      .contact-form {
+        margin-right: 100px;
+        margin-left: 100px;
+        height: 50vh;
+        width: 70vw;
         
       }
 
@@ -281,6 +316,14 @@ body {
             
             width: 95%;
            
+          }
+
+          .contact-form {
+            margin-right: 50px;
+            margin-left: 50px;
+            height: 50vh;
+            width: 70vw;
+            
           }
 
     }
