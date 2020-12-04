@@ -9,6 +9,11 @@ body {
     
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .bg-black {
     background-color: #063324;
 }
