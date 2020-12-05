@@ -5,6 +5,7 @@ let firstCard, secondCard;
 
 let moves = 0;
 let counter = document.querySelector(".moves-counter");
+let starsList = document.querySelectorAll(".stars li");
 
 const roar = new Audio("assets/sounds/roar.mp3");
 const flip = new Audio("assets/sounds/flip.mp3");
@@ -68,14 +69,13 @@ function flipCard() {
   function moveCounter(){
     moves++;
     counter.innerHTML = moves;
+    
   }
-
 
   function restart (){
 
     location.reload();
     return false;
   }
-
 
 cards.forEach(card => card.addEventListener('click', flipCard));
