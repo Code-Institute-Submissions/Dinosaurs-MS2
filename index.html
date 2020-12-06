@@ -11,7 +11,6 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <!-- Link to Font Awesome for Icons -->
-        <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
         <script src="https://kit.fontawesome.com/2f59828723.js" crossorigin="anonymous"></script>
         <title>Dinosaur Discoveries | Game</title>
         <!-- Link to Internal CSS -->
@@ -59,8 +58,13 @@
           <p>Match the cards for each dinosaur in the least moves possible. The less moves you make to complete the game, the more stars you receive.</p>
           </div>
           <div class="moves">
+            <ul class="stars">
+              <li><i class="fa fa-star"></i></li>
+              <li><i class="fa fa-star"></i></li>
+              <li><i class="fa fa-star"></i></li>
+            </ul>
           <span class="moves-counter">0</span> Move(s)
-          
+          <span class="count-counter">0</span> Match(s)
           <button class="restart-btn" onclick="restart()">Restart Game</button>
           </div>
           
@@ -152,7 +156,20 @@
         
         </div>
 
-        
+        <div id="popup1" class="overlay">
+          <div class="popup">
+              <h2>Congratulations</h2>
+              <a class="close" href=# >X</a>
+              <div class="content-1">
+                  Congratulations you have completed the game.
+              </div>
+              <div class="content-2">
+                  <p>You made <span id=finalMove> </span> moves </p>
+                  <p>Rating:  <span id=starRating></span></p>
+              </div>
+            
+          </div>
+      </div>
 
 
         <footer class="site-footer">
