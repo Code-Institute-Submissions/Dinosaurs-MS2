@@ -5,11 +5,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Dinosaur Discoveries">
-        <meta
-            name="keywords"
-            content="Dinosaurs, Dinosaur Game, Visit Dinosaurs">
+        <meta name="keywords" content="Dinosaurs, Dinosaur Game, Visit Dinosaurs">
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+            crossorigin="anonymous">
         <!-- Link to Font Awesome for Icons -->
         <script src="https://kit.fontawesome.com/2f59828723.js" crossorigin="anonymous"></script>
         <title>Dinosaur Discoveries | Game</title>
@@ -38,7 +40,7 @@
                         <a class="nav-link active" href="index.html">Play Game</a>
                     </li>
                     <li class="nav-item mr-4">
-                      <a class="nav-link" href="dinoinfo.html">Dino Info</a>
+                        <a class="nav-link" href="dinoinfo.html">Dino Info</a>
                     </li>
                     <li class="nav-item mr-4">
                         <a class="nav-link" href="places.html">Places to Visit</a>
@@ -49,140 +51,169 @@
                 </ul>
             </div>
         </nav>
-        
+
         <div class="flex">
 
-        <section class ="ins-moves">
-          <div class="ins">
-          <H3> Name of the Game</H3>
-          <p>Match the cards for each dinosaur in the least moves possible. The less moves you make to complete the game, the more stars you receive.</p>
-          </div>
-          <div class="moves">
-            <ul class="stars">
-              <li><i class="fa fa-star"></i></li>
-              <li><i class="fa fa-star"></i></li>
-              <li><i class="fa fa-star"></i></li>
-            </ul>
-          <span class="moves-counter">0</span> Move(s)
-          <span class="count-counter">0</span> Match(s)
-          <button class="restart-btn" onclick="restart()">Restart Game</button>
-          </div>
-          
-        </section>
+            <section class="ins-moves">
+                <div class="ins">
+                    <h3>
+                        Name of the Game</h3>
+                    <p>Match the cards for each dinosaur in the least moves possible. The less moves
+                        you make to complete the game, the more stars you receive.</p>
+                </div>
+                <div class="moves">
+                    <ul class="stars">
+                        <li>
+                            <i class="fa fa-star"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-star"></i>
+                        </li>
+                    </ul>
+                    <span class="moves-counter">0</span>
+                    Move(s)
+                    <span class="count-counter">0</span>
+                    Match(s)
+                    <button class="restart-btn" onclick="restart()">Restart Game</button>
+                </div>
 
-        <section class="memory-game">
-            <div class="memory-card" data-framework="brachiosaurus">
-              <img class="front-face" src="assets/images/brachiosaurus.jpg" alt="brachiosauras">
-              <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
-            </div>
-          
-            <div class="memory-card" data-framework="brachiosaurus">
-              <img class="front-face" src="assets/images/brachiosaurus.jpg" alt="brachiosauras">
-              <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
-            </div>
-          
-            <div class="memory-card" data-framework="mosasaurus">
-              <img class="front-face" src="assets/images/mosasaurus.jpg" alt="mosasaurus">
-              <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
-            </div>
-          
-            <div class="memory-card" data-framework="mosasaurus">
-              <img class="front-face" src="assets/images/mosasaurus.jpg" alt="mosasaurus">
-              <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
-            </div>
-          
-            <div class="memory-card" data-framework="pterodactyl">
-              <img class="front-face" src="assets/images/pterodactyl.jpg" alt="pterodactyl">
-              <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
-            </div>
-          
-            <div class="memory-card" data-framework="pterodactyl">
-              <img class="front-face" src="assets/images/pterodactyl.jpg" alt="pterodactyl">
-              <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
-            </div>
-          
-            <div class="memory-card" data-framework="spinosaurus">
-              <img class="front-face" src="assets/images/spinosaurus.jpg" alt="spinosaurus">
-              <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
-            </div>
-          
-            <div class="memory-card" data-framework="spinosaurus">
-              <img class="front-face" src="assets/images/spinosaurus.jpg" alt="spinosaurus">
-              <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
-            </div>
-          
-            <div class="memory-card" data-framework="stegosaurus">
-              <img class="front-face" src="assets/images/stegosaurus.jpg" alt="stegosaurus">
-              <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
-            </div>
-          
-            <div class="memory-card" data-framework="stegosaurus">
-              <img class="front-face" src="assets/images/stegosaurus.jpg" alt="stegosaurus">
-              <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
-            </div>
-          
-            <div class="memory-card" data-framework="triceratops">
-              <img class="front-face" src="assets/images/triceratops.jpg" alt="triceratops">
-              <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
-            </div>
-          
-            <div class="memory-card" data-framework="triceratops">
-              <img class="front-face" src="assets/images/triceratops.jpg" alt="triceratops">
-              <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
-            </div>
+            </section>
 
-            <div class="memory-card" data-framework="tyrannosaurus">
-                <img class="front-face" src="assets/images/tyrannosaurus-rex.jpg" alt="tyrannosaurus">
-                <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
-              </div>
+            <section class="memory-game">
+                <div class="memory-card" data-framework="brachiosaurus">
+                    <img
+                        class="front-face"
+                        src="assets/images/brachiosaurus.jpg"
+                        alt="brachiosauras">
+                    <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
+                </div>
 
-              <div class="memory-card" data-framework="tyrannosaurus">
-                <img class="front-face" src="assets/images/tyrannosaurus-rex.jpg" alt="tyrannosaurus">
-                <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
-              </div>
+                <div class="memory-card" data-framework="brachiosaurus">
+                    <img
+                        class="front-face"
+                        src="assets/images/brachiosaurus.jpg"
+                        alt="brachiosauras">
+                    <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
+                </div>
 
-              <div class="memory-card" data-framework="velociraptor">
-                <img class="front-face" src="assets/images/velociraptor.jpg" alt="velociraptor">
-                <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
-              </div>
+                <div class="memory-card" data-framework="mosasaurus">
+                    <img class="front-face" src="assets/images/mosasaurus.jpg" alt="mosasaurus">
+                    <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
+                </div>
 
-              <div class="memory-card" data-framework="velociraptor">
-                <img class="front-face" src="assets/images/velociraptor.jpg" alt="velociraptor">
-                <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
-              </div>
+                <div class="memory-card" data-framework="mosasaurus">
+                    <img class="front-face" src="assets/images/mosasaurus.jpg" alt="mosasaurus">
+                    <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
+                </div>
 
-          </section>
-          
-        
+                <div class="memory-card" data-framework="pterodactyl">
+                    <img class="front-face" src="assets/images/pterodactyl.jpg" alt="pterodactyl">
+                    <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
+                </div>
+
+                <div class="memory-card" data-framework="pterodactyl">
+                    <img class="front-face" src="assets/images/pterodactyl.jpg" alt="pterodactyl">
+                    <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
+                </div>
+
+                <div class="memory-card" data-framework="spinosaurus">
+                    <img class="front-face" src="assets/images/spinosaurus.jpg" alt="spinosaurus">
+                    <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
+                </div>
+
+                <div class="memory-card" data-framework="spinosaurus">
+                    <img class="front-face" src="assets/images/spinosaurus.jpg" alt="spinosaurus">
+                    <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
+                </div>
+
+                <div class="memory-card" data-framework="stegosaurus">
+                    <img class="front-face" src="assets/images/stegosaurus.jpg" alt="stegosaurus">
+                    <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
+                </div>
+
+                <div class="memory-card" data-framework="stegosaurus">
+                    <img class="front-face" src="assets/images/stegosaurus.jpg" alt="stegosaurus">
+                    <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
+                </div>
+
+                <div class="memory-card" data-framework="triceratops">
+                    <img class="front-face" src="assets/images/triceratops.jpg" alt="triceratops">
+                    <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
+                </div>
+
+                <div class="memory-card" data-framework="triceratops">
+                    <img class="front-face" src="assets/images/triceratops.jpg" alt="triceratops">
+                    <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
+                </div>
+
+                <div class="memory-card" data-framework="tyrannosaurus">
+                    <img
+                        class="front-face"
+                        src="assets/images/tyrannosaurus-rex.jpg"
+                        alt="tyrannosaurus">
+                    <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
+                </div>
+
+                <div class="memory-card" data-framework="tyrannosaurus">
+                    <img
+                        class="front-face"
+                        src="assets/images/tyrannosaurus-rex.jpg"
+                        alt="tyrannosaurus">
+                    <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
+                </div>
+
+                <div class="memory-card" data-framework="velociraptor">
+                    <img class="front-face" src="assets/images/velociraptor.jpg" alt="velociraptor">
+                    <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
+                </div>
+
+                <div class="memory-card" data-framework="velociraptor">
+                    <img class="front-face" src="assets/images/velociraptor.jpg" alt="velociraptor">
+                    <img class="back-face" src="assets/images/cardfront.jpeg" alt="Memory Card">
+                </div>
+
+            </section>
+
         </div>
 
         <div id="popup1" class="overlay">
-          <div class="popup">
-              <h2>Congratulations</h2>
-              <a class="close" href=# >X</a>
-              <div class="content-1">
-                  Congratulations you have completed the game.
-              </div>
-              <div class="content-2">
-                  <p>You made <span id=finalMove> </span> moves </p>
-                  <p>Rating:  <span id=starRating></span></p>
-              </div>
-            
-          </div>
-      </div>
+            <div class="popup">
+                <h2>Congratulations</h2>
+                <a class="close" href="#">X</a>
+                <div class="content-1">
+                    Congratulations you have completed the game.
+                </div>
+                <div class="content-2">
+                    <p>You made
+                        <span id="finalMove"></span>
+                        moves
+                    </p>
+                    <p>Rating:
+                        <span id="starRating"></span></p>
+                </div>
 
+            </div>
+        </div>
 
-        <footer class="site-footer">
+        <footer class="site-footer"></footer>
 
-
-
-        </footer>
-
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
         <script src="assets/js/main.js"></script>
-        
-        </body>
 
-        </html>
+    </body>
+
+</html>
