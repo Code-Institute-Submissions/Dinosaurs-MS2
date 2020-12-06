@@ -459,7 +459,7 @@ html, body {
     }
 
       .moves {
-        font-size: 12px;
+        font-size: 18px;
       }
 
     @media screen and (max-width: 568px) {
