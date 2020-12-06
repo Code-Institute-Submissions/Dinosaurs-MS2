@@ -388,7 +388,7 @@ html, body {
             width: 100vw;
             height: 85vw;
             margin-left: 5px;
-            margin-top: 50px;
+            margin-top: 80px;
         }
         .flex {
             flex-direction: column;
@@ -396,7 +396,7 @@ html, body {
 
         .ins-moves {
             width: 100vw;
-            height: 175px;
+            height: 125px;
         
              }
              .col1 {
@@ -451,4 +451,20 @@ html, body {
     }
 
 
-    
+    @media screen and (max-width: 653px) {
+
+      .ins-moves {
+        font-size: 12px;
+      }
+    }
+
+      .moves {
+        font-size: 12px;
+      }
+
+    @media screen and (max-width: 568px) {
+
+      .ins-moves {
+        margin-top:100px;
+      }
+    }

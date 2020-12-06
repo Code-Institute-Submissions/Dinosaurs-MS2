@@ -107,9 +107,10 @@ function flipCard() {
         modal.classList.add("show");
         roar.pause();
         finish.play();
+        
         var starRating = document.querySelector(".stars").innerHTML;
 
-        document.getElementById("finalMove").innerHTML = moves;
+        document.getElementById("finalMove").innerHTML = moves--;
         document.getElementById("starRating").innerHTML = starRating;
 
         closeModal();
