@@ -52,7 +52,7 @@ function flipCard() {
     countCounter();
     roar.play();
     resetBoard();
-    congratulations();
+    congrats();
   }
  
   function unflipCards() {
@@ -102,7 +102,7 @@ function flipCard() {
     counter2.innerHTML = count;
   }
 
-  function congratulations(){
+  function congrats(){
     if (count == 8){
         modal.classList.add("show");
         roar.pause();
@@ -110,7 +110,7 @@ function flipCard() {
         
         var starRating = document.querySelector(".stars").innerHTML;
 
-        document.getElementById("finalMove").innerHTML = moves--;
+        document.getElementById("finalMove").innerHTML = moves+1;
         document.getElementById("starRating").innerHTML = starRating;
 
         closeModal();
