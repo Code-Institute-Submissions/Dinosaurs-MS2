@@ -15,6 +15,7 @@ let modal = document.getElementById("popup1")
 
 const roar = new Audio("assets/sounds/roar.mp3");
 const flip = new Audio("assets/sounds/flip.mp3");
+const finish = new Audio("assets/sounds/finish.mp3");
 
 function flipCard() {
   if (lockBoard) return;
@@ -104,7 +105,9 @@ function flipCard() {
   function congratulations(){
     if (count == 8){
         modal.classList.add("show");
-
+        roar.pause();
+        flip,pause();
+        finish.play();
         var starRating = document.querySelector(".stars").innerHTML;
 
         document.getElementById("finalMove").innerHTML = moves;
@@ -129,4 +132,4 @@ function flipCard() {
 
 
 cards.forEach(card => card.addEventListener('click', flipCard));
-card.addEventListener("click",congratulations);
+
