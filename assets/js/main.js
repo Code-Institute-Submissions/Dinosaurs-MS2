@@ -106,7 +106,6 @@ function flipCard() {
     if (count == 8){
         modal.classList.add("show");
         roar.pause();
-        flip,pause();
         finish.play();
         var starRating = document.querySelector(".stars").innerHTML;
 
