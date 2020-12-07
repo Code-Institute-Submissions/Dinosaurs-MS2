@@ -69,7 +69,7 @@ function unflipCards() {
             .classList
             .remove('flip');
         resetBoard();
-    }, 1000);
+    }, 1200);
 }
 
 function resetBoard() {
