@@ -64,7 +64,7 @@
         <div class="contact-form">
             <h5>Sign up below to receive the monthly newsletter on the latest events with
                 Dinosaurs in the UK</h5>
-            <form onsubmit="return sendMail(this);">
+            <form id="contactForm" onsubmit="return sendMail(this);">
                 <label for="fullname">Name</label>
                 <input
                     type="text"
@@ -90,32 +90,56 @@
                     placeholder="Contact No"
                     required="required"></input>
                 <button
-                    id="button1"
+                    id="contact-button"
                     type="submit"
                     class="btn btn-secondary center-block"
                     style="float:right;">Sign Up</button>
             </form>
-          
-        </div>
 
+        </div>
     </div>
 
-        <footer class="site-footer"></footer>
+    <!-- Footer -->
+    <footer id="footer" class="page-footer .fixed-bottom">
 
-        <script
-            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
-        <script
-            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-            crossorigin="anonymous"></script>
-        <script src="assets/js/signup.js"></script>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright: Matt Moore
+            <p>Dinosaur Discoveries</p>
+        <!-- Copyright -->
+        <!-- Social Links -->
+            <ul class="list-unstyled list-inline text-center">
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-fb mx-1">
+                    <i class="fab fa-facebook-f"> </i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="btn-floating btn-tw mx-1">
+                    <i class="fab fa-twitter"> </i>
+                  </a>
+                </li>
+               </ul>
+        <!-- Social Links -->
+        </div>
+        
 
-    </body>
+    </footer>
+    <!-- Footer -->
+
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/signup.js"></script>
+
+</body>
 
 </html>
