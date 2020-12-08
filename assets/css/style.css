@@ -1,40 +1,40 @@
 /* css for menu */
 
 @import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
-
+/*font, Background Image to entire website*/
 body {
     font-family: 'Prompt', sans-serif;
     background: url("../images/background.png") no-repeat;
     background-size: 180%
     
 }
-
+/*Max dimensions set for site and disbling overflow */
 html, body {
   max-width: 100%;
   max-height: 1200px;
   overflow-x: hidden;
 }
-
+/*Colour for Navigation Bar */
 .bg-black {
     background-color: #063324;
 }
-
+/*Text Colour for Navigation Bar */
 .nav-link.active, .nav-link:hover{
     color: #ffffff !important;
 }
-
+/*Dimensions for Navigation Bar */
 .navbar-brand {
     height: 50px;
     width: 220px;
     font-size: 220%;
     }
-
+/*flex container game */
 .flex {
     display: flex;
     flex-direction: row;
     margin-bottom: 120px;
 }
-
+/*Game board */
 .memory-game {
     width: 65%;
     height: 620px;
@@ -46,7 +46,7 @@ html, body {
     overflow: hidden;
 
   }
-
+/*Card Divs */
   .memory-card {
     width: calc(25% - 10px);
     height: calc(25% - 10px);
@@ -56,21 +56,21 @@ html, body {
     transform-style: preserve-3d;
     transition: transform .5s;
 }
-
+/*Transformation when card being made active */
  .memory-card:active {
    transform: scale(1.1);
    transition: transform .3s;
  }
-
+/*change cursor when hovering over card */
  .memory-card:hover {
      cursor: pointer;
  }
-
+/*flip card when clicked */
  .memory-card.flip {
     transform: rotateY(180deg);
   }
 
-  
+  /*change fron front to back card */
   .front-face,
   .back-face {
     width: 100%;
@@ -81,11 +81,11 @@ html, body {
     -webkit-backface-visibility: hidden;
 
   }
-
+  /*change fron back to front to show dinosaur */
   .front-face {
     transform: rotateY(180deg);
   }
-
+  /*Moves Section */
   .ins-moves {
     width: 35%;
     height: 620px;
@@ -121,7 +121,9 @@ html, body {
     color: white; 
     margin: 10px;
   }
+  /*Moves Section */
 
+  /*Dinosaur Dropdown */
   .select-dino {
     margin-top: 85px;
     margin-left: 10px;
@@ -139,7 +141,9 @@ html, body {
     margin-left: 30px;
     color: white;
   }
+  /*Dinosaur Dropdown */
 
+  /*Dinosaur Information Text Container */
   .col1 {
     display: block;
     width: 50%;
@@ -148,7 +152,7 @@ html, body {
     
 
   }
-  
+  /*Dinosaur  Picture Container */
   .col2 {
     display: block;
     width: 50%;
@@ -161,6 +165,7 @@ html, body {
     display: none;
   }
 
+  /*Dinosaur Information Text */
   .my-info-1 {
     color: white;
     font-size:18px;
@@ -171,7 +176,7 @@ html, body {
     height: 630px;
     
   }
-  
+  /*Dinosaur Information Picture */
  .my-info-1 img{
 
     width: 85%;
@@ -187,14 +192,14 @@ html, body {
    color: white;
    margin-top: 10px;
  }
-
+/*Google Map*/
  #map {
    margin-top: 100px;
    margin-left: 25px;
    height: 85%;
    width: 90%;
  }
-
+/*Google Map Container */
  .col1-maps {
   display: block;
   width: 100%;
@@ -203,7 +208,7 @@ html, body {
   margin-bottom: 50px;
   margin-left: 100px;
 }
-
+/*Contact Form Container */
 .contact-form {
   margin-right: 200px;
   margin-left: 300px;
@@ -214,7 +219,7 @@ html, body {
   width: 60%;
   padding: 50px;
 }
-
+/*Contact Form Header */
 .contact-form h5 {
   margin-bottom: 50px;;
   color: white;
@@ -229,7 +234,7 @@ html, body {
     margin-top: 20px;
     align-content: right;
 }
-
+/*Footer Settings */
 .site-footer {
   
   position: relative;
@@ -239,21 +244,21 @@ html, body {
   background-color:  #063324;
   
   }
-
+/*Stars Container on Game page */
   .stars {
     margin: 0;
     padding: 0;
     display: inline-block;
     
   }
-  
+  /*Stars on Game Page */
   .stars li {
     list-style: none;
     display: inline-block;
     font-size: 20px;
   }
 
-
+/*Overlay for Sign Up Page*/
   .overlay {
     position: fixed;
     top: 0;
@@ -270,7 +275,7 @@ html, body {
     visibility: visible;
     opacity: 1;
   }
-    
+  /*Modal Popup when completing sign up form*/  
   .popup {
     margin: 200px auto;
     padding: 30px;
@@ -311,18 +316,22 @@ html, body {
     visibility: visible !important;
     opacity: 100 !important;
   }
-  
+  /*Modal Popup when completing sign up form*/ 
+
+
   #starRating li {
     display: inline-block;
   }
 
+
+  /*Footer Settings*/ 
   #footer {
     background-color: #063324;
     color: white;
     margin-top: 170px;
   }
 
- 
+ /*changes on screens for tablets*/ 
 
 @media screen and (max-width: 992px) {
     
@@ -385,6 +394,8 @@ html, body {
 
       
 }
+
+/*changes on screens for mobile phoness*/ 
 
 @media screen and (max-width: 695px) {
     
@@ -460,7 +471,7 @@ html, body {
     }
 
 
-    
+    /*changes on screens for smaller phones eg Iphone SE*/ 
 
     @media screen and (max-width: 653px) {
 
