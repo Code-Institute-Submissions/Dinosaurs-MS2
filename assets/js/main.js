@@ -18,6 +18,8 @@ const roar = new Audio("assets/sounds/roar.mp3");
 const flip = new Audio("assets/sounds/flip.mp3");
 const finish = new Audio("assets/sounds/finish.mp3");
 
+const getMoves = localStorage.getItem('moves')+1
+
 function flipCard() {
     if (lockBoard) 
         return;
@@ -113,6 +115,7 @@ function congrats() {
             .add("show");
         roar.pause();
         finish.play();
+        localStorage.setItem = ('moves')+1
 
         var starRating = document
             .querySelector(".stars")

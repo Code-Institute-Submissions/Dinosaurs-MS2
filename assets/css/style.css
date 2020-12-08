@@ -319,6 +319,7 @@ html, body {
   #footer {
     background-color: #063324;
     color: white;
+    margin-top: 170px;
   }
 
  
@@ -345,6 +346,7 @@ html, body {
 
     .flex {
         flex-direction: column;
+      
     }
 
     .ins-moves {
