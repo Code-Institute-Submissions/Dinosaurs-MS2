@@ -1,3 +1,5 @@
+
+//Call map with central location in the UK for Lat and Lng, zoom set to 7.2 to show most of the markers
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {
         zoom: 7.2,
@@ -6,7 +8,7 @@ function initMap() {
             lng: -1.473730
         }
     });
-
+// Variables to show marker information on the map
   const infoWin = new google.maps.InfoWindow();
   const markers = locations.map(function(location, i) {
   const marker = new google.maps.Marker({
@@ -18,11 +20,12 @@ function initMap() {
     })
     return marker;
   });
+// Markers variable taken from google maps
   const markerCluster = new MarkerClusterer(map, markers, {
     imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
     });
 }
-
+// Locations and information for markers to go on the map about places to visit which involve dinosaurs
     const locations = [
         { lat: 52.37872, 
           lng: -2.29157,
