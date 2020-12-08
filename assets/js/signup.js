@@ -1,5 +1,7 @@
-const signup = new Audio("assets/sounds/signup.mp3");
 
+//Variable for sound file when submitting form
+const signup = new Audio("assets/sounds/signup.mp3");
+//Send information to EMail.JS
 function sendMail(contactForm) {
     emailjs.send("gmail", "dino", {
         "from_name": contactForm.name.value,
@@ -8,7 +10,7 @@ function sendMail(contactForm) {
     })
   
     .then(
-        // Change button text to green and display 'sent' message
+// Change button textto green and display message Sign up Complete
         function () {
             let sentButton = document.getElementById('contact-button');
             signup.play();
@@ -16,11 +18,11 @@ function sendMail(contactForm) {
             sentButton.innerHTML = "Sign Up Complete!";
 
         },
-        // On error, using standard browser alert
+// On error, browser alert
         function (error) {
             alert("Whoops! An error occurred, please try again.", error);
         });
-        // Clear form after submission
+// Clear form after submitting
         document.getElementById('contactForm').reset();
 return false;
 }
