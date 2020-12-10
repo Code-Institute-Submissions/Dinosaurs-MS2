@@ -1,5 +1,5 @@
 
-![responsiveimage](Documentation/Images/ResponsiveImage.png)
+![responsiveimage](Documentation/images/ResponsiveImage.png)
 
 Dinosaur Discoveries - Website
 ---
