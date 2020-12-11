@@ -3,7 +3,6 @@
 
 Dinosaur Discoveries - Website
 ---
-
 ## Table of Contents
 
 - [**About**](#About)
@@ -35,7 +34,9 @@ Dinosaur Discoveries - Website
 
 ## About
 
+The website was created with the younger generation in mind who have a interest in dinosaurs. The aim of the site was to be fun and factual so a game could be played but also information could be found out easily about different dinosaurs.
 
+The mission was for the site to be a one stop information centre for everything dinosaurs.
 
 ___
 
@@ -43,20 +44,45 @@ ___
 
 #### Goals
 
-
-
+The goals of the website were:-
+1. Display and work on all devices from large screen monitors, Laptops to tablets and phones.
+2. Provide an interactive scoring game for dinosaurs that would challenge the users memory.
+3. Provide information on dinosaurs based on the pictures in the memory game.
+4. Provide a map for information of everywhere to visit locations in the UK that have dinosaurs attractions.
+5. Provide a sign up page for a user to receive a monthly newsletter from dinosair discoveries.
+6. The website needed to attract the user by using clear images, instructions and sounds.
 
 ---
 
 #### User Stories
 
+From the Designers Perspective:-
+- The site needs to easy to use and navigate with it being aimed at the youunger generation.
+- Thes sites colour screen and background needs to be dinosaur related but easy on the eye.
+- The pictures on the site need to be clear so the user can identify the dinosaur type easily.
+- The game needs to be easy to understand and play but also be a challenge based on the users memory.
+- The selector on the dinosaur information page needs to be easy to use and understand.
+- The map needs to be clear and concise and fill the area making it easy for the user to use.
+- The sign up form needs to be easy to enter information to attract more people to dinosaur discoveries.
+- Dinosaur Discoveries needs to be the goto website for everything dinosaurs.
 
+From the users perspective:-
+- I want to find the game a challenge but not too hard.
+- I want to learn about different dinosaurs that existed.
+- I want to see what the dinosaurs looked like.
+- I want to see attractions in the UK where I can find even more about dinosaurs.
+- I want to sign up to receive more information from the website.
+- I want to the website to make me want to visit and play the game again.
 
 ---
 
 ### Styling
 
+The website needed to catch the users eye straight away and be dinosaur related, after doing various research on dinosaurs, most were located either on grass land, in water or jungles. I went for a jungle background to create a darker looking theme for the website with clear white writing.
 
+The below colour scheme was used for the menus and text.
+
+![ColourScheme](Documentation/Images/ColourScheme.png)
 
 ---
 
@@ -85,6 +111,9 @@ ___
 
 - HTML  
   - HTML was used for the main structure of the website.
+
+- JavaScript
+  - Javascript was used for all pages to make them more interactive to the user.
 
 - CSS
   - CSS was used to style and change sizes and positions of different items where Bootstrap couldn't be used.
@@ -155,8 +184,7 @@ To check how the website runned on different devices I used Am-I-Responsive and 
 ### Live Website Link
 
  
-
- The website link was created by doing the following steps.
+The website link was created by doing the following steps.
 
  1. Click on Settings which is located at the top of the page.
  2. Scroll down to the GitHub pages.
@@ -171,7 +199,7 @@ To check how the website runned on different devices I used Am-I-Responsive and 
 
 To run this website and code on your local device, follow the below steps.
 
-1. Go to repository PaulJohnGroup-MS1 on github.
+1. Go to repository Dinosaurs-MS2 on github.
 2. Click Clone or Download.
 3. Download the Zip File.
 4. Unzip the downloaded zip file on the local device.
@@ -184,7 +212,6 @@ To run this website and code on your local device, follow the below steps.
 ### Content
 
 All Code was written by myself, I used the following to help my coding.
-
 
 
 ### Media
