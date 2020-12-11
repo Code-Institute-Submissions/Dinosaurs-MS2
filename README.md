@@ -82,7 +82,7 @@ The website needed to catch the users eye straight away and be dinosaur related,
 
 The below colour scheme was used for the menus and text.
 
-![ColourScheme](Documentation/Images/ColourScheme.png)
+![ColourScheme](Documentation/images/ColourScheme.png)
 
 ---
 
