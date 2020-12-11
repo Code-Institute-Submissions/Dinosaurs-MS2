@@ -84,11 +84,34 @@ The below colour scheme was used for the menus and text.
 
 ![ColourScheme](Documentation/images/ColourScheme.png)
 
+The font chosed was prompt because it was clear and concise. The backup font if google fonts didnt load is Sans-Serif.
+
+The background image used for the site was a jungle background to keep with the dinosaur theme.
+
 ---
 
 ### Wireframes
 
+Play Game - index.html - Browser - [MainBrowserHome](Documentation/Wireframes/mainpagegame-index.html.pdf)
+Play Game - index.html - Tablet - [TabletHome](Documentation/Wireframes/tablet-mainpagegame-index.html.pdf)
+Play Game - index.html - Mobile - [MobileHome](Documentation/Wireframes/mobile-mainpagegame-index.html.pdf)
 
+Dino Info - dinoinfo.html - Browser - [MainBrowserDinoInfo](Documentation/Wireframes/dinoinfo.html.pdf)
+Dino Info - dinoinfo.html - Tablet - [TabletDinoInfo](Documentation/Wireframes/dinoinfo.html-tablet.pdf)
+Dino Info - dinoinfo.html - Mobile - [MobileDinoInfo](Documentation/Wireframes/dinoinfo.html-mobile.pdf)
+
+Places - places.html - Browser - [MainBrowserPlaces](Documentation/Wireframes/places.html.pdf)
+Places - places.html - Tablet - [TabletPlaces](Documentation/Wireframes/Tabletplaces.html.pdf)
+Places - places.html - Mobile - [MobilePlaces](Documentation/Wireframes/mobile-places.html.pdf)
+
+Sign Up - signup.html - Browser - [MainBrowserSignUp](Documentation/Wireframes/signup.html.pdf)
+Sign Up - signup.html - Tablet - [TabletSignUp](Documentation/Wireframes/signup.html.pdf)
+Sign Up - signup.html - Mobile - [MobileSignUp](Documentation/Wireframes/signup.html.pdf)
+
+**Design Changes to Wireframes**
+1. Background change on all pages, new cleaner background chosen for live site.
+2. Star Rating added to index.html 
+3. Sign Page Div Background made a RGB Clour green for better effect.
 
 ---
 
