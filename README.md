@@ -119,18 +119,38 @@ Sign Up - signup.html - Mobile - [MobileSignUp](Documentation/Wireframes/signup.
 
 ### Existing Features
 
-
+- The navigation menu is pinned to the top, page links are grey and when hovered or the chosen page is live, these are coloured white.
+- The game is a 4x4 grid which stays the same grid on all devices from large screen devices to tablets and phones.
+- When a card is clicked it spins round to show a dinosaur, the user must remember where the dinosaurs are to match the pair, there is 8 Dinosaurs to match in total.
+- The number of moves and matches are counted as the user turns and matches the cards.
+- The star rating also updates depending on the number of moves the user takes to complete the game. 14 or less is 3 stars, 15 > 22 is two stars and more than 22 is one star.
+- Sounds are played on the turn of a card and a dinosaur roar sound is made when two cards are matched.
+- When all cards are matched music is played and the congratulations popup is shown to show the user how many moves and the final star rating.
+- The restart button is on the page in case the user has taken more moves than they would like and they want to start again.
+- The footer is pinned to the bottom of all pages. 
+- The dino info page uses a dropdown selector so the user can select the dinosaur.
+- The picture changes and 5 facts are shown for each dinosaur.
+- All pictures for the dinosaurs match the pictures that are in the game.
+- The places to visit page shows a google map with all places that are of interest to dinosaurs in the uk.
+- When the user clicks on the marker it shows the name of the place.
+- The sign up page is simple contact form that allows the user to sign up for the monthly newsletter by Dinosaur Discoveries.
+- The signup page is linked the Email.JS to notify the website owner of interest on the website.
+- When the user clicks sign up, music is played and the button changes colour to notify the user signup is completed.
+- If signup is not successful then a error message will be shown.
 
 ### Features Left To Implement
 
-
+- A menu to be added for Easy, Medium and Hard, this would allow to extend the grid to more cards and more dinosaurs depending on the level selected.
+- Individual sounds added for each dinosaur on match. 
+- Sounds added to the dino info page for each dinosaur to make the page even more interactive.
+- More information and website links added to the markers on the map page to allow the user to go straight to the website for each attraction.
 
 ---
 
 ## Technologies Used
 
 - Boostrap 4
-  - Bootstrap 4 was used for setting up the sites responsiveness of different size devices using the grid system. It was also used to make the containers fluid and images so they change size automatically depending on the screen size.
+  - Bootstrap 4 was used for the dino info page to create rows and margins.
 
 - HTML  
   - HTML was used for the main structure of the website.
