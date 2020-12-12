@@ -200,10 +200,18 @@ Sign Up - signup.html - Mobile - [MobileSignUp](Documentation/Wireframes/signup.
 | Test  |  Result | Extra Coding Required  |
 |---|---|---|
 
+|The site needs to easy to use and navigate with it being aimed at the younger generation|Testing navigating through pages, making the game easy to understand and play | Extra coding added to show number of matches along with moves|
+|Thes sites colour screen and background needs to be dinosaur related but easy on the eye| Clear background added to the site and green colour sheme to match| Picture changed mid project to a more crisp background jungle image|
+|The pictures on the site need to be clear so the user can identify the dinosaur type easily| Images made clear as they can in the game to fit the screen, bigger pictures added to the dinfo info page to show more detail, Tested the pictures on various devices| N/A|
+|The game needs to be easy to understand and play but also be a challenge based on the users memory|Tested how the instructions showed on all devices and easy to see the cards on all devices, tested by pushing out toe github and testing on my iphone, ipad and macbook and also tested using inspect on google chrome on different devices | N/A|
+|The selector on the dinosaur information page needs to be easy to use and understand| Tested the dropdown menu on all devices to make sure it showed ok| Added extra margins so it was showed at the top of page over the picture and facts.|
+|The map needs to be clear and concise and fill the area making it easy for the user to use| Tested the map to make sure it showed clear on all devices and was easy to read the markers|N/A |
+|The sign up form needs to be easy to enter information to attract more people to dinosaur discoveries| Tested the form entry on all devices and e-mails being received to the test account from E-mail JS| added less margin on mobile and tablet devices to the sign up form filled the device screen more|
+|Dinosaur Discoveries needs to be the goto website for everything dinosaurs| Thorough tested the site myself and added the site on the peer-code-review on slack so other users could test| N/A|
 
 ### Responsive Testing
 
-To check how the website runned on different devices I used Am-I-Responsive and Inspect in Google Chrome Developer Tools. While doing these tests I did the following:-
+To check how the website runned on different devices I usedD Am-I-Responsive and Inspect in Google Chrome Developer Tools. I also pushed out the site regualr to the live area and access the link on my IPhone, Ipad and Macbook. While doing these tests I did the following:-
 
 |  Test | Result  |  Extra Coding Required |
 |---|---|---|
