@@ -199,7 +199,6 @@ Sign Up - signup.html - Mobile - [MobileSignUp](Documentation/Wireframes/signup.
 
 | Test  |  Result | Extra Coding Required  |
 |---|---|---|
-
 |The site needs to easy to use and navigate with it being aimed at the younger generation|Testing navigating through pages, making the game easy to understand and play | Extra coding added to show number of matches along with moves|
 |Thes sites colour screen and background needs to be dinosaur related but easy on the eye| Clear background added to the site and green colour sheme to match| Picture changed mid project to a more crisp background jungle image|
 |The pictures on the site need to be clear so the user can identify the dinosaur type easily| Images made clear as they can in the game to fit the screen, bigger pictures added to the dinfo info page to show more detail, Tested the pictures on various devices| N/A|
@@ -215,7 +214,6 @@ To check how the website runned on different devices I usedD Am-I-Responsive and
 
 |  Test | Result  |  Extra Coding Required |
 |---|---|---|
-
 |Game instructions and Title and Game board to show properly on different devices so the users doesnt have to scroll down to see the cards when playing| Tested using my opwn Iphone and Ipad and Macbook, also tested using google chrome developer tools, the cards and results were showing too big on mobile| Made the cards div and text for the instructions div smaller in mobile view and stack the two sections on top of each other|
 |Pictures to show properly on all views on the dinfo info page| I tested the pictures on various devices to make sure they were showing ok, the picture was showing properly when shrinking down to tablet and mobile view| I changed the dimensions of the picture to accomondate the size of the screen using percentages|
 |The facts and picture should be easy to read on all devices | When testing on smaller devices, when shrinking down the text was too small next to the picture | When shrinking down to smaller tablet and phone size, I made col1 stack on top of col2 so it looked better and easier to read on smaller devices|
