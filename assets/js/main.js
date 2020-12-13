@@ -53,7 +53,7 @@ function checkForMatch() {
     let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
     isMatch
         ? disableCards()  // Disables the cards if they have been matched
-        : unflipCards(); // turns the cards back round if they dont match
+        : unflipCards(); // locks the board so the cards cant be flipped again and removes the flip from the card
 
 }
 

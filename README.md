@@ -216,17 +216,32 @@ To check how the website runned on different devices I usedD Am-I-Responsive and
 |  Test | Result  |  Extra Coding Required |
 |---|---|---|
 
-
-
+|Game instructions and Title and Game board to show properly on different devices so the users doesnt have to scroll down to see the cards when playing| Tested using my opwn Iphone and Ipad and Macbook, also tested using google chrome developer tools, the cards and results were showing too big on mobile| Made the cards div and text for the instructions div smaller in mobile view and stack the two sections on top of each other|
+|Pictures to show properly on all views on the dinfo info page| I tested the pictures on various devices to make sure they were showing ok, the picture was showing properly when shrinking down to tablet and mobile view| I changed the dimensions of the picture to accomondate the size of the screen using percentages|
+|The facts and picture should be easy to read on all devices | When testing on smaller devices, when shrinking down the text was too small next to the picture | When shrinking down to smaller tablet and phone size, I made col1 stack on top of col2 so it looked better and easier to read on smaller devices|
+|The map shpould fill the screen all devices | Tested the map on all devices again | Wrote the map size to a % to show on all screens|
+|The button should change colour and music play when the user completes the sign up form | Tested on all devices to make sure it works | N/A |
+|The navigation menu should show text on larger screens and tablets and the burger on smaller devices | The text was overlapping when going down to a smaller tablet | Text size changed on media queries for tablets|
+|The sign up page should shrink down to fit all sizes|Tested on all devices| Margins changed on smaller devices to make the sign up form fit better|
+The footer should be pinned at the bottom of all pages| Tested on all devices and am-i-responsive, when showing on am-i-responsive there was small gap between the footer and the bottom of the page| Margin for above footer changed on large devices|
+|The moves, matches and stars should show clear on all device | When viewing on smaller devices there text was overlapping | Made the text smaller and added padding to avoid the text overlap|
 
 
 ### Additional Testing
 
+I also carried the following addtional testing:-
+- My son tested the game using my Iphone, Ipad and on a windows laptop on chrome and on safari on macbook, when turning the cards on the iphone and ipad and on safari the card wasn't showing the dinosaur - Webkit was added in the CSS to fix the issue.
+- Members of the slack community also tested my website, all results were positive apart from a couple of issues with the sign up form and a scroller which is fixed.
+
+Testing carried out using the console for Javascript:-
+- I used console.log on various variables to see how they were updating when the game was being played, the following variables were tested in console.log
+1. moves - moves was tested to make sure the number was increasing everytime the user turned over 2 cards.
+2. count - count was tested to make sure it increased by one everytime the user matched two cards
 
 
- ### Code Validation
+### Code Validation
 
-
+W3C Markup Validation Service and W3C CSS Validation Service was used for validating the code.
 
  ---
 
@@ -234,6 +249,7 @@ To check how the website runned on different devices I usedD Am-I-Responsive and
 
 ### Live Website Link
 
+https://mattmoore050783.github.io/Dinosaurs-MS2/index.html
  
 The website link was created by doing the following steps.
 
@@ -244,7 +260,7 @@ The website link was created by doing the following steps.
 
 ### Repository Link
 
-
+https://github.com/MattMoore050783/Dinosaurs-MS2
 
 ### Running Code Locally
 
@@ -262,14 +278,33 @@ To run this website and code on your local device, follow the below steps.
 
 ### Content
 
-All Code was written by myself, I used the following to help my coding.
+I used the following links to help moy coding:-
+- Code Institue CV project for help with the EMail.JS and Google Map API Connectors and configuration.
+- https://www.w3schools.com/default.asp - Used the extra information on Javascript to help with my coding.
+- https://stackoverflow.com/  I used this site to source various coding when i was struggling with getting my code to work.
+- https://stackoverflow.com/questions/6164507/change-the-content-of-a-div-based-on-selection-from-dropdown-menu - I used this link to help show the information from my dinosaurs when using a dropdown combo box.
+- https://www.youtube.com/watch?v=vEROU2XtPR8 - I used this link for extra tuition on javascript.
+- https://www.youtube.com/watch?v=ZniVgo8U7ek - I used this site mostly to help with the setup of my board and used the code to setup my game and adopt accordingly.
+- https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript - I used this site to get different coding ideas for the modal congratulations pop up.
+- https://www.youtube.com/watch?v=v-RC3kJCL4c - I used these different lessons to give me more information on JQuery.
+- https://www.youtube.com/channel/UCHRp19HU7Y2LwfI0Ai6WAGQ - I used this channel for various information on Janascript.
+- https://validator.w3.org/#validate_by_uri - I used this site to validate the HTML.
+- https://jigsaw.w3.org/css-validator/ - I used this to validate the CSS.
+- http://ami.responsivedesign.is/ - I used this to help check the responsive design of my website.
+- https://www.favicon-generator.org/ - I used this to generate my favicon.
 
 
 ### Media
 
-
+All pictures were taken from various sources from google searches for dinosaur backgrounds and the dinosaurs. 
 
 ### Acknowledgements
+
+Many Thanks to the below for the help and guidances throughout my project:- 
+- My Mentor Maranatha
+- Code Institues support team for increasing my hand in date and being supportive while i was working my day to day job through the pandemic.
+- The slack community for feedback on my website. 
+- Code Institute and the learning programme for Javascript/Jquery/Google Maps API's and EMail.JS
 
 
 
