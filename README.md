@@ -276,7 +276,9 @@ To run this website and code on your local device, follow the below steps.
 
 ### Content
 
-I used the following links to help moy coding:-
+### Code
+
+I used the following links to help my coding:-
 - Code Institue CV project for help with the EMail.JS and Google Map API Connectors and configuration.
 - https://www.w3schools.com/default.asp - Used the extra information on Javascript to help with my coding.
 - https://stackoverflow.com/  I used this site to source various coding when i was struggling with getting my code to work.
@@ -290,6 +292,11 @@ I used the following links to help moy coding:-
 - https://jigsaw.w3.org/css-validator/ - I used this to validate the CSS.
 - http://ami.responsivedesign.is/ - I used this to help check the responsive design of my website.
 - https://www.favicon-generator.org/ - I used this to generate my favicon.
+
+### Content
+I used google and the following websites to get information on the dinosaurs:-
+- https://www.kids-dinosaurs.com/dinosaur-facts.html
+- https://www.sciencekids.co.nz/sciencefacts/dinosaurs.html
 
 
 ### Media
